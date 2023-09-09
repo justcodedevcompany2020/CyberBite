@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cyber_bite_general_wrapper {
+    width: 100%;
+    height: 100%;
+    /*background-image: url("../../assets/img/back_img.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    background: #F2F2F2;
+}
+
+
+.cyber_bite_main_wrapper {
+    width: 100%;
+}
+
+/*main*/
+
+/*help*/
+
+.help_section {
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+    z-index: 9999;
+    padding-top: 30px;
+}
+.help_section_wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.help_items_wrapper {
+    width: 100%;
+
+}
+
+.help_item {
+    width: 100%;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    border: 3px solid #4A85D575;
+
+}
+.help_section_title {
+    color: #4A85D5;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.help_item_title_icon_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.help_item_title {
+    color: #070707;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+.help_item_icon_plus {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.help_item_icon_minus {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.help_item.active  .help_item_icon_minus{
+    display: flex!important;
+}
+.help_item.active  .help_item_icon_plus{
+    display: none!important;
+}
+.help_item.active  .help_item_hidden_box{
+    display: block!important;
+}
+.help_item_hidden_box {
+    width: 100%;
+    padding-top: 15px;
+    display: none;
+}
+.help_item_hidden_info {
+    color: #070707;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+.help_page_image {
+    position: absolute;
+    width: 100%;
+    max-width: 1350px;
+    left: 0;
+    top: -63px;
+    z-index: -1;
+}
+
+.help_page_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.help_item_pagination_link{
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+.help_item_pagination_link:hover {
+    background-color: #4A85D5!important;
+    background: linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5) !important;
+    color: #ffffff!important;
+}
+
+.help_item_pagination_link.active {
+    background-color: #4A85D5!important;
+    background: linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5) !important;
+    color: #ffffff!important;
+}
+
+.help_items_paginations_button{
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+}
+
+.help_items_paginations_prev_button {
+    background-image: url("../img/pagination_prev_btn.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.help_items_paginations_next_button {
+    background-image: url("../img/pagination_next_btn.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.help_items_paginations_wrapper {
+    display: flex;
+    align-items: center;
+    width: 280px;
+
+}
+.help_items_paginations_buttons_main_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.help_items_paginations_buttons_wrapper {
+    display: flex;
+    align-items: center;
+    /*width: 100px;*/
+}
+
+.help_items_paginations_prev_button:hover {
+    background-image: url("../img/pagination_prev_active_btn.svg"),linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5)!important;
+
+
+}
+
+
+.help_items_paginations_next_button:hover {
+    background-image:url("../img/pagination_next_active_btn.svg"), linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5)!important;;
+
+
+}
+.help_items_paginations_prev_button.active {
+    background-image: url("../img/pagination_prev_active_btn.svg"),linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5)!important;
+
+
+}
+
+
+.help_items_paginations_next_button.active {
+    background-image:url("../img/pagination_next_active_btn.svg"), linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5)!important;
+}
+
+
+/*mobile*/
+@media (max-width: 1200px) {
+    .help_section_wrapper {
+        max-width: unset!important;
+        width: 95% !important;
+    }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+    .help_section {
+        margin-bottom: 70px!important;
+    }
+}
+
+@media (max-width: 425px) {
+    .help_section {
+        margin-bottom: 50px!important;
+    }
+    .help_section_title {
+        font-size: 35px!important;
+    }
+    .help_item_title {
+        font-size: 26px!important;
+    }
+    .help_item {
+        padding: 13px!important;
+    }
+    .help_item_hidden_info {
+        font-size: 16px!important;
+    }
+}
+
+@media (max-width: 450px) {
+    .help_item_pagination_link {
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 14px !important;
+    }
+
+    .help_items_paginations_button {
+        width: 30px !important;
+        height: 30px !important;
+    }
+}

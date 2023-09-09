@@ -1,0 +1,390 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cyber_bite_general_wrapper {
+    width: 100%;
+    height: 100%;
+    /*background-image: url("../../assets/img/back_img.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    background: #F2F2F2;
+}
+
+.cyber_bite_main_wrapper {
+    width: 100%;
+}
+
+/*main*/
+
+/*news_single_page*/
+
+.news_single_page_main_wrapper {
+    width: 100%;
+    position: relative;
+    z-index: 999999;
+}
+.news_single_page_wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.news_single_page_image {
+    position: absolute;
+    width: 100%;
+    max-width: 1350px;
+    left: 0;
+    top: -63px;
+    z-index: -1;
+}
+.news_single_page_item1_info_box {
+    width: 100%;
+    max-width: 670px;
+}
+.news_single_page_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news_single_page_item1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.news_single_page_item1_img {
+    width: 100%;
+    max-width: 470px;
+    height: 320px;
+}
+.news_single_page_item1_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news_single_page_item1_title {
+    color: #070707;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.news_single_page_item1_info {
+    color: #070707;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+}
+.news_single_page_item2 {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.news_single_page_item2:last-child {
+    margin-bottom: 60px;
+}
+.news_single_page_item2_title {
+    margin-bottom: 15px;
+    color: #070707;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+.news_single_page_item2_info {
+    margin-bottom: 15px;
+    color: #070707;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+.other_news_wrapper {
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+}
+.other_news_title {
+    color: #4A85D5;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+
+#news_page .news {
+    padding-top: 30px;
+}
+
+.news_image {
+    position: absolute;
+    width: 100%;
+    max-width: 1350px;
+    right: 0;
+    top: -63px;
+}
+.news_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.news_item:first-child {
+    width: 100%;
+    max-width: 569px!important;
+}
+.news_item:first-child .news_item_image {
+    width: 100%;
+    max-width: 569px!important;
+    height: 242px;
+}
+
+
+.news_item:first-child .news_item_info1 {
+    font-size: 18px!important;
+}
+.news_item:first-child .news_item_info2 {
+    margin-bottom: 5px!important;
+}
+
+
+.news_item:first-child .news_item_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.news_wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99999999;
+}
+.news_title {
+    margin-bottom: 30px;
+    color: #4A85D5;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+
+
+.news_item_info_box {
+    background-color: #ffffff;
+    padding: 20px 15px;
+
+}
+
+.news_item_info1 {
+    color: #24324B;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.news_item_info2 {
+    color: #333333;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+
+.news_item_info3 {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+
+.news_item {
+    width: 100%;
+    max-width: 269px;
+}
+.news_item_image {
+    max-width: 269px;
+    width: 100%;
+    height: 242px;
+}
+
+.news_item_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.news_item_pagination_link{
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+.news_item_pagination_link:hover {
+    background-color: #4A85D5!important;
+    background: linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5) !important;
+    color: #ffffff!important;
+}
+
+.news_item_pagination_link.active {
+    background-color: #4A85D5!important;
+    background: linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5) !important;
+    color: #ffffff!important;
+}
+
+.news_items_paginations_button{
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+}
+
+.news_items_paginations_prev_button {
+    background-image: url("../img/pagination_prev_btn.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.news_items_paginations_next_button {
+    background-image: url("../img/pagination_next_btn.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.news_items_paginations_wrapper {
+    display: flex;
+    align-items: center;
+    width: 280px;
+
+}
+.news_items_paginations_buttons_main_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news_items_paginations_buttons_wrapper {
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.news_items_paginations_prev_button:hover {
+    background-image: url("../img/pagination_prev_active_btn.svg"),linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5)!important;
+
+
+}
+
+
+.news_items_paginations_next_button:hover {
+    background-image:url("../img/pagination_next_active_btn.svg"), linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5)!important;;
+
+
+}
+.news_items_paginations_prev_button.active {
+    background-image: url("../img/pagination_prev_active_btn.svg"),linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5)!important;
+
+
+}
+
+
+.news_items_paginations_next_button.active {
+    background-image:url("../img/pagination_next_active_btn.svg"), linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5)!important;
+}
+
+.news_items_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#news_page .news_items_wrapper {
+    display: unset!important;
+    margin-bottom: unset!important;
+}
+
+.news_items_child_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+#news_page .news_item_image  {
+    display: flex;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
+.big_item .news_item_info1 {
+    font-size: 18px!important;
+}
+.big_item .news_item_info2 {
+    margin-bottom: 5px!important;
+}
+
+
+.big_item .news_item_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.news_single_page_item3 {
+    margin-bottom: 100px;
+}
+.news_single_page_item3_title {
+    margin-bottom: 15px;
+    color: #070707;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+.news_single_page_item3_info {
+    margin-bottom: 15px;
+    color: #070707;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}

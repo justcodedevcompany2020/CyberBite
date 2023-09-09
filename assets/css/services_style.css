@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cyber_bite_general_wrapper {
+    width: 100%;
+    height: 100%;
+    /*background-image: url("../../assets/img/back_img.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    background: #F2F2F2;
+}
+
+.cyber_bite_main_wrapper {
+    width: 100%;
+}
+
+/*main*/
+
+/*services*/
+.services_section {
+    width: 100%;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    position: relative;
+    z-index: 9999;
+}
+.services_section_image {
+    position: absolute;
+    width: 100%;
+    max-width: 1350px;
+    right: 0;
+    top: -69px;
+    z-index: -1;
+}
+.services_section_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.services_section_wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.services_section_title {
+    color: #4A85D5;
+    margin-bottom: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.services_tabs_items_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 780px;
+}
+.services_tab_item {
+    border: 1px solid #4A85D5;
+    width: 100%;
+    max-width: 240px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    color: #4A85D5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.services_items_main_title {
+    color: #333333;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.services_items_main_title_month_year_prices_info_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.services_month_year_prices_info_tabs_wrapper {
+    display: flex;
+    align-items: center;
+    width: 224px;
+}
+
+.services_month_year_prices_info_tab {
+    height: 34px;
+    width: 50%;
+    background: #FFFFFF;
+    padding: 3px;
+    cursor: pointer;
+
+}
+.services_month_year_prices_info_tab_info {
+    color: #333333;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    height: 28px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services_month_year_prices_info_tab_info.active {
+    color: #FFFFFF!important;
+    font-weight: 600!important;
+    background: #4A85D5;
+}
+.services_month_year_prices_info_tab:hover {
+    color: #FFFFFF!important;
+    font-weight: 600!important;
+    background: #4A85D5;
+}
+.services_items_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /*margin-bottom: 30px;*/
+}
+.services_item {
+    width: 24%;
+    margin-bottom: 30px;
+    background: linear-gradient(180deg, #4A85D5 0%, #00010E 100%);
+    padding: 15px;
+}
+.services_item_title_price_info_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.services_item_price_info_for_month {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.services_item_details_item_title2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.services_item_details_item_title {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 3px;
+}
+.services_item_details_item_title span {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 10px!important;
+    font-weight: 400!important;
+}
+.services_item_price_info_for_month span {
+    font-size: 18px!important;
+}
+.services_item_details_item {
+    width: 48%;
+}
+.services_item_details_item_box {
+    border: 2px solid #DCDCDC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border-radius: 5px;
+    padding: 5px;
+}
+.services_item_details_items_wrapper {
+    width: 100%;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services_item_title {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 22px;
+}
+.services_item_price_info {
+    font-family: 'Montserrat', sans-serif;
+    color: #070707;
+    font-weight: 600;
+    font-size: 18px;
+}
+.services_tab_item.active {
+    background: linear-gradient(180deg, #4A85D5 0%, #00010E 256.25%) !important;
+    color: #ffffff!important;
+}
+.services_tab_item:hover {
+    background: linear-gradient(180deg, #4A85D5 0%, #00010E 256.25%) !important;
+    color: #ffffff!important;
+}
+.services_item_pagination_link{
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+.services_item_pagination_link:hover {
+    background-color: #4A85D5!important;
+    background: linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5) !important;
+    color: #ffffff!important;
+}
+
+.services_item_pagination_link.active {
+    background-color: #4A85D5!important;
+    background: linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5) !important;
+    color: #ffffff!important;
+}
+
+.services_items_paginations_button{
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+}
+
+.services_items_paginations_prev_button {
+    background-image: url("../img/pagination_prev_btn.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.services_items_paginations_next_button {
+    background-image: url("../img/pagination_next_btn.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.services_items_paginations_wrapper {
+    display: flex;
+    align-items: center;
+    width: 280px;
+
+}
+.services_items_paginations_buttons_main_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services_items_paginations_buttons_wrapper {
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.services_items_paginations_prev_button:hover {
+    background-image: url("../img/pagination_prev_active_btn.svg"),linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5)!important;
+
+
+}
+
+
+.services_items_paginations_next_button:hover {
+    background-image:url("../img/pagination_next_active_btn.svg"), linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5)!important;;
+
+
+}
+.services_items_paginations_prev_button.active {
+    background-image: url("../img/pagination_prev_active_btn.svg"),linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5)!important;
+
+
+}
+
+
+.services_items_paginations_next_button.active {
+    background-image: url("../img/pagination_next_active_btn.svg"), linear-gradient(180deg, #4A85D5 0%, #00010E 100%),
+    linear-gradient(0deg, #4A85D5, #4A85D5) !important;
+}
+
+.services_item_details_item_box_minus_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+.services_item_details_item_box_plus_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+.services_item_details_item_social_links_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services_item_details_item_social_link {
+    width: 35px;
+    height: 28px;
+    border: 2px solid #DCDCDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border-radius: 5px;
+
+}
+.services_item_order_btn {
+    background: #4A85D5;
+    width: 100%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.services_item_details_item_social_link  img{
+    width: 20px;
+    height: 20px;
+}
+.services_items_main_wrapper {
+    width: 100%;
+    display: none;
+}
+.services_items_main_wrapper.open {
+    display: block!important;
+}
+
+.services_additions_wrapper {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.services_additions_title {
+    margin-bottom: 20px;
+    color: #333333;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.services_additions_items_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services_additions_item {
+    width: 24%;
+    border: 5px solid #4A85D5;
+    margin-bottom: 30px;
+    padding: 20px 10px;
+    background: linear-gradient(0deg, #F0EDED, #F0EDED);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.services_additions_item_title {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.services_additions_item_info {
+    font-family: 'Montserrat', sans-serif;
+    color: #4A85D5;
+    font-weight: 700;
+    font-size: 28px;
+}
+.services_additions_item_info_first_span {
+    font-size: 18px!important;
+}
+.services_additions_item_info_second_span {
+    font-size: 22px!important;
+    color: #333333!important;
+    font-weight: 600!important;
+}
+.services_operating_systems_wrapper {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.services_operating_systems_items_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services_operating_system_title {
+    margin-bottom: 20px;
+    color: #333333;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.services_operating_systems_item {
+    width: 24%;
+    margin-bottom: 30px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 5px solid transparent;
+    border-image:  linear-gradient(180deg, #4A85D5 0%, #00010E 100%);
+    border-image-slice: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.services_operating_systems_item_img {
+        width: 198px;
+        height: 104px;
+}
+.services_operating_systems_item_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.features_of_cloud_servers_wrapper {
+    width: 100%;
+    margin-bottom: 60px;
+}
+.features_of_cloud_servers_title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #070707;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.features_of_cloud_servers_info {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #070707;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+.services_title2_paginations_btns_wrapper {
+    width: 269px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.services_title2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #015792;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
