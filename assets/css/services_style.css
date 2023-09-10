@@ -25,7 +25,7 @@
     margin-bottom: 40px;
     padding-top: 30px;
     position: relative;
-    z-index: 9999;
+    z-index: 999;
 }
 .services_section_image {
     position: absolute;
@@ -286,7 +286,7 @@
 .services_items_paginations_buttons_wrapper {
     display: flex;
     align-items: center;
-    width: 100px;
+    /*width: 100px;*/
 }
 
 .services_items_paginations_prev_button:hover {
@@ -496,4 +496,132 @@
     font-weight: 700;
     font-size: 30px;
     text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+    .services_section_wrapper {
+        max-width: unset!important;
+        width: 95% !important;
+    }
+}
+
+@media (max-width: 1154px) {
+    .services_item_details_item_social_link {
+        width: 30px!important;
+        height: 26px!important;
+    }
+}
+
+.services_main_item {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .services_item {
+        width: 32% !important;
+    }
+    .services_item:last-child {
+        width: 48% !important;
+    }
+    .services_item:nth-child(7) {
+        width: 48% !important;
+    }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+    .services_item {
+        width: 48% !important;
+    }
+
+}
+@media (max-width: 500px) {
+    .services_item {
+        width: 100%!important;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .services_section_title {
+        font-size: 35px!important;
+    }
+    .services_items_main_title {
+        font-size: 35px!important;
+
+    }
+    .services_additions_title {
+        font-size: 35px!important;
+    }
+    .services_operating_system_title {
+        font-size: 35px!important;
+    }
+    .features_of_cloud_servers_info {
+        font-size: 16px!important;
+    }
+    .features_of_cloud_servers_title {
+        font-size: 26px!important;
+    }
+}
+
+@media (max-width: 590px) {
+    .services_items_main_title_month_year_prices_info_wrapper {
+        flex-direction: column;
+        align-items: flex-start!important;
+    }
+    .services_items_main_title {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .services_item_pagination_link {
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 14px !important;
+    }
+
+    .services_items_paginations_button {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 950px) {
+    .services_additions_item {
+        width: 32% !important;
+    }
+    .services_additions_item:last-child {
+        width: 48% !important;
+    }
+    .services_additions_item:nth-child(7) {
+        width: 48% !important;
+    }
+    .services_operating_systems_item {
+        width: 32% !important;
+    }
+    .services_operating_systems_item:nth-child(7) {
+        width: 48%!important;
+    }
+    .services_operating_systems_item:last-child {
+        width: 48%!important;
+    }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+    .services_additions_item {
+        width: 48% !important;
+    }
+    .services_operating_systems_item {
+        width: 48% !important;
+    }
+
+}
+@media (max-width: 500px) {
+    .services_additions_item {
+        width: 100%!important;
+    }
+    .services_operating_systems_item {
+        width: 100%!important;
+    }
 }
