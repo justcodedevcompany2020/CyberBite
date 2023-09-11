@@ -178,7 +178,7 @@
     font-size: 18px!important;
 }
 .services_item_details_item {
-    width: 48%;
+    width: 45.5%;
 }
 .services_item_details_item_box {
     border: 2px solid #DCDCDC;
@@ -201,6 +201,7 @@
     color: #ffffff;
     font-weight: 700;
     font-size: 22px;
+    text-transform: uppercase;
 }
 .services_item_price_info {
     font-family: 'Montserrat', sans-serif;
@@ -391,7 +392,7 @@
     flex-wrap: wrap;
 }
 .services_additions_item {
-    width: 24%;
+    width: 23%;
     border: 5px solid #4A85D5;
     margin-bottom: 30px;
     padding: 20px 10px;
@@ -443,7 +444,7 @@
     text-transform: uppercase;
 }
 .services_operating_systems_item {
-    width: 24%;
+    width: 23%;
     margin-bottom: 30px;
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
     border: 5px solid transparent;
@@ -505,10 +506,50 @@
     }
 }
 
-@media (max-width: 1154px) {
+@media (min-width: 501px) and (max-width: 1154px) {
     .services_item_details_item_social_link {
         width: 30px!important;
         height: 26px!important;
+    }
+}
+@media (min-width: 458px) and (max-width: 500px) {
+    .services_item_details_item_social_link {
+        width: 60px!important;
+        height: 35px!important;
+    }
+    .services_item_details_item_social_link img {
+        width: 30px!important;
+        height: 30px!important;
+    }
+}
+@media (min-width: 398px) and (max-width: 458px) {
+    .services_item_details_item_social_link {
+        width: 50px!important;
+        height: 30px!important;
+    }
+    .services_item_details_item_social_link img {
+        width: 26px!important;
+        height: 26px!important;
+    }
+}
+@media (min-width: 356px) and (max-width: 397px) {
+    .services_item_details_item_social_link {
+        width: 45px!important;
+        height: 28px!important;
+    }
+    .services_item_details_item_social_link img {
+        width: 24px!important;
+        height: 24px!important;
+    }
+}
+@media  (max-width: 356px) {
+    .services_item_details_item_social_link {
+        width: 40px!important;
+        height: 28px!important;
+    }
+    .services_item_details_item_social_link img {
+        width: 24px!important;
+        height: 24px!important;
     }
 }
 
@@ -623,5 +664,11 @@
     }
     .services_operating_systems_item {
         width: 100%!important;
+    }
+}
+
+@media (max-width: 1040px) {
+    .services_item_details_item_title {
+        font-size: 13px!important;
     }
 }

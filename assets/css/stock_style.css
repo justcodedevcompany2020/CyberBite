@@ -89,6 +89,7 @@
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     width: 75%;
+    text-transform: uppercase;
 
 }
 .stock_item_date_info {
